@@ -11,5 +11,6 @@ check tsconfig reference for more explications
   "files": [
     "src/app.ts",
     "src/basic/types.ts",
+    "src/basic/narrowing.ts",
   ]
 }
