@@ -1,0 +1,14 @@
+/**
+check tsconfig reference for more explications
+*/
+{
+  "compilerOptions": {
+    "outDir": "dist", //  target of build destination
+    "target": "ES2015", // version of JS we need to build
+    "strict": false,
+    "noEmitOnError": true
+  },
+  "files": [
+    "src/app.ts"
+  ]
+}
