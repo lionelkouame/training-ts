@@ -5,10 +5,11 @@ check tsconfig reference for more explications
   "compilerOptions": {
     "outDir": "dist", //  target of build destination
     "target": "ES2015", // version of JS we need to build
-    "strict": false,
+    "strict":  true,
     "noEmitOnError": true
   },
   "files": [
-    "src/app.ts"
+    "src/app.ts",
+    "src/basic/types.ts",
   ]
 }

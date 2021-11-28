@@ -1,9 +1,13 @@
 const compteur = document.querySelector('#btnIncrement')
 let i = 0
 
-const increments = (e) => {
+const increments = (e: Event) : void => {
+    e.preventDefault()
     i++
-    compteur.querySelector('#incrementValue').innerHTML = i.toString()
+    const span = document?.querySelector('#incrementValue')
+    if (span) {
+        span.innerHTML = i.toString()
+    }
 }
 
-compteur.addEventListener('click', increments)
+compteur?.addEventListener('click', increments)
